@@ -1,0 +1,15 @@
+[package]
+name = "onchain_birthday"
+version = "1.0.0"
+authors = []
+
+[addresses]
+onchain_birthday = "0xac94d7b4098e325a86a1c30c1f901d5b2610518a272475e80e5b2612fee0de47"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
